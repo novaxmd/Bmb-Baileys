@@ -2,10 +2,10 @@
 
 <div align="center">
 
-[![npm version](https://img.shields.io/npm/v/Bmb-Baileys.svg?style=for-the-badge)](https://www.npmjs.com/package/Bmb-Baileys)
+[![npm version](https://img.shields.io/npm/v/novaxmd-Baileys.svg?style=for-the-badge)](https://www.npmjs.com/package/novaxmd-Baileys)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
-[![npm downloads](https://img.shields.io/npm/dm/Bmb-Baileys.svg?style=for-the-badge)](https://www.npmjs.com/package/Bmb-Baileys)
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?style=for-the-badge&logo=github)](https://github.com/novaxmd/Bmb-Baileys)
+[![npm downloads](https://img.shields.io/npm/dm/novaxmd-Baileys.svg?style=for-the-badge)](https://www.npmjs.com/package/novaxmd-Baileys)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?style=for-the-badge&logo=github)](https://github.com/novaxmd/novaxmd-Baileys)
 
 </div>
 
@@ -93,7 +93,7 @@ Use npm aliasing to replace the original package with this enhanced version:
 ```json
 // In your package.json
 "dependencies": {
-    "@whiskeysockets/baileys": "npm:Bmb-Baileys@latest"
+    "@whiskeysockets/baileys": "npm:novaxmd-Baileys@latest"
 }
 ```
 
@@ -103,7 +103,7 @@ Then run `npm install`.
 
 ### **Method 2: Via npm (Recommended for Production)**
 ```bash
-npm install Bmb-Baileys
+npm install novaxmd-Baileys
 ```
 
 ### **Method 3: Directly from GitHub**
@@ -128,9 +128,9 @@ npm install /path/to/cloned/Baileys
 
 ### **Method 5: Using Yarn**
 ```bash
-yarn add Bmb-Baileys
+yarn add novaxmd-Baileys
 # or from GitHub
-yarn add https://github.com/novaxmd/Bmb-Baileys.git
+yarn add https://github.com/novaxmd/novaxmd-Baileys.git
 ```
 
 ---
@@ -167,7 +167,7 @@ async function connectToWhatsApp() {
             console.log('✅ Successfully connected to WhatsApp!');
             // Send a welcome message to yourself
             const selfJid = sock.user.id;
-            sock.sendMessage(selfJid, { text: 'Hello! I am online using Bmb-Baileys 🤖' });
+            sock.sendMessage(selfJid, { text: 'Hello! I am online using novaxmd-Baileys 🤖' });
         }
     });
 
@@ -587,7 +587,7 @@ module.exports = {
         );
       }
 
-      const defaultCaption = `Group status Posted By Bmb Tech ✅\n\nJOIN\nhttps://chat.whatsapp.com/FmtTNDEE5YZ1tWJ4og1V0I`;
+      const defaultCaption = `Group status Posted By novaxmd Tech ✅\n\nJOIN\nhttps://chat.whatsapp.com/FmtTNDEE5YZ1tWJ4og1V0I`;
 
       if (/image/.test(mime)) {
         const buffer = await client.downloadMediaMessage(quoted);
