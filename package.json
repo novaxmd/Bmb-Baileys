@@ -51,7 +51,7 @@
         "futoin-hkdf": "^1.5.1",
         "libphonenumber-js": "^1.10.20",
         "lru-cache": "^10.2.0",
-        "libsignal": "git+https://github.com/xhclintohn/libsignal-node",
+        "libsignal": "git+https://github.com/novaxmd/libsignal-node",
         "music-metadata": "^7.12.3",
         "node-cache": "^5.1.2",
         "node-fetch": "^2.6.1",
